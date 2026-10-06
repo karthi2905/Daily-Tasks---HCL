@@ -8,8 +8,6 @@ Repository to track daily learning, assessments, and tasks during the HCL traini
 |:---:|---|---|:---:|
 | **Day 01** | Core Java Assessment: TechNova Meeting Room & Resource Booking System | [Day-01/technova-booking](./Day-01/technova-booking) | Completed |
 
----
-
 ### Day 01 Overview: TechNova Meeting Room & Resource Booking System
 A complete **Core Java console application** demonstrating object-oriented design and standard Java practices:
 - **OOP Concepts**: Encapsulation, Polymorphism, Abstract classes, Interface (`Bookable`), Inheritance hierarchy.
