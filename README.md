@@ -33,4 +33,4 @@ A fundamental **Java command-line toolchain task** and **Agile requirements brea
 - **Runtime Platform Diagnostics**: [`PlatformInfo.java`](./Day-01/day1-java-platform-info/PlatformInfo.java) querying `java.version`, `os.name`, available processors, and max/free heap memory via `System.getProperty()` and `Runtime.getRuntime()`.
 - **Direct Compilation & Execution**: `javac PlatformInfo.java` and `java PlatformInfo` without an IDE.
 - **Bytecode & Class Loading Inspection**: `javap -c PlatformInfo` disassembling JVM bytecode and `java -verbose:class` verifying dynamic class loading.
-- **BookMg Product Backlog Analysis**: [`BookMg/docs/day-1-backlog.md`](./BookMg/docs/day-1-backlog.md) deriving the 8 Functional Requirements (FR1–FR8), converting them into user stories (US-01 to US-08) with Fibonacci story points (36 SP total) and a Definition of Done.
+- **BookMg Product Backlog Analysis**: 8 Functional Requirements (FR1–FR8) converted into user stories (US-01 to US-08) with Fibonacci story points (36 SP total) and a Definition of Done for the enterprise booking platform, tracked in the dedicated [BookMg repository](https://github.com/karthi2905/bookmg).
