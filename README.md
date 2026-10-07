@@ -28,10 +28,9 @@ A pure **Core Java console application** demonstrating array processing, primiti
 - **Integer Overflow & Long Promotion**: Demonstration of 32-bit `int` arithmetic wraparound and resolution using 64-bit `long` casting and accumulator.
 - **Modular Code**: Small, focused static methods with clean console presentation.
 
-### Day 01 Overview: Java JDK Command-Line Basics
-A fundamental **Java command-line toolchain task** built and executed strictly from the terminal without an IDE or build tools:
+### Day 01 Overview: Java JDK Command-Line Basics & BookMg Backlog Analysis
+A fundamental **Java command-line toolchain task** and **Agile requirements breakdown** for the BookMg enterprise booking platform:
 - **Runtime Platform Diagnostics**: [`PlatformInfo.java`](./Day-01/day1-java-platform-info/PlatformInfo.java) querying `java.version`, `os.name`, available processors, and max/free heap memory via `System.getProperty()` and `Runtime.getRuntime()`.
-- **Direct Compilation**: `javac PlatformInfo.java` compiling Java source directly to bytecode.
-- **Direct Execution**: `java PlatformInfo` running the compiled class on the JVM.
-- **Bytecode Inspection**: `javap -c PlatformInfo` disassembling the class file into JVM bytecode instructions.
-- **Class Loading Diagnostics**: `java -verbose:class PlatformInfo` inspecting runtime dynamic class loading.
+- **Direct Compilation & Execution**: `javac PlatformInfo.java` and `java PlatformInfo` without an IDE.
+- **Bytecode & Class Loading Inspection**: `javap -c PlatformInfo` disassembling JVM bytecode and `java -verbose:class` verifying dynamic class loading.
+- **BookMg Product Backlog Analysis**: [`BookMg/docs/day-1-backlog.md`](./BookMg/docs/day-1-backlog.md) deriving the 8 Functional Requirements (FR1–FR8), converting them into user stories (US-01 to US-08) with Fibonacci story points (36 SP total) and a Definition of Done.
