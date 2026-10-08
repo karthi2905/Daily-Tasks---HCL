@@ -8,6 +8,7 @@ Repository to track daily learning, assessments, and tasks during the HCL traini
 |:---:|---|---|:---:|
 | **Day 01** | Core Java Assessment: Java JDK Command-Line Basics | [Day-01/day1-java-platform-info](./Day-01/day1-java-platform-info) | Completed |
 | **Day 02** | Core Java Assessment: Monthly Usage Analyser | [Day-02/monthly-usage-analyser](./Day-02/monthly-usage-analyser) | Completed |
+| **Day 03** | Core Java Assessment: ATM Simulator | [Day-03/atm-simulator](./Day-03/atm-simulator) | Completed |
 | **Day 04** | Core Java Assessment: Bank Account OOP & Debugging | [Day-04/bank-account-debugging](./Day-04/bank-account-debugging) | Completed |
 
 ### Day 04 Overview: Bank Account OOP & Debugging
@@ -18,6 +19,7 @@ A comprehensive **Core Java OOP and debugging task** demonstrating encapsulation
 - **Object Contracts**: `equals()`, `hashCode()`, and `toString()` implementations based on the unique `accountNumber` identity.
 - **Debugging & HCR**: Identification of an intentional double-subtraction defect in `withdraw()`, conditional breakpoint (`amount == 1000`), watch expressions (`balance`, `amount`), and Hot Code Replace workflow.
 
+### Day 03 Overview: ATM Simulator
 A clean, menu-driven **Java 17 console application** demonstrating control flow and build configuration:
 - **Control Flow**: `do-while` menu loop, `switch` statement for action routing, `break` and `continue` statements.
 - **PIN Authentication**: Maximum 3 security attempts with early `break` on verification and card blocking.
