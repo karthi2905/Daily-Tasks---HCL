@@ -9,7 +9,7 @@ Repository to track daily learning, assessments, and tasks during the HCL traini
 | **Day 01** | Core Java Assessment: Java JDK Command-Line Basics | [Day-01/day1-java-platform-info](./Day-01/day1-java-platform-info) | Completed |
 | **Day 02** | Core Java Assessment: Monthly Usage Analyser | [Day-02/monthly-usage-analyser](./Day-02/monthly-usage-analyser) | Completed |
 | **Day 03** | Core Java Assessment: ATM Simulator | [Day-03/atm-simulator](./Day-03/atm-simulator) | Completed |
-| **Day 04** | Core Java Assessment: Bank Account OOP & Debugging | [day-4](./day-4) | Completed |
+| **Day 04** | Core Java Assessment: Bank Account OOP & Debugging | [Day-04/bank-account-debugging](./Day-04/bank-account-debugging) ([day-4](./day-4)) | Completed |
 
 ### Day 04 Overview: Bank Account OOP & Debugging
 A comprehensive **Core Java OOP and debugging task** demonstrating encapsulation and IDE diagnostic techniques:
