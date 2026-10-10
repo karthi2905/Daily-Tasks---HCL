@@ -3,7 +3,7 @@
 
 [GATEWAY_CONFIG]
 API_VERSION = 2.4.0
-GATEWAY_SECURITY_POLICY = Standard SHA-256 TLS 1.3
+GATEWAY_SECURITY_POLICY = Student-B (UPI Specialist): Enforcing NPCI UPI 2.0 Encrypted Virtual Private Addressing & Signed Mandates
 TRANSACTION_TIMEOUT_MS = 5000
 RETRY_MAX_ATTEMPTS = 3
 SUPPORT_EMAIL = dev-support@technova.com
