@@ -1,0 +1,11 @@
+# Day 5 Build and compilation artifacts
+out/
+bin/
+*.class
+
+# IDE and OS files
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db
