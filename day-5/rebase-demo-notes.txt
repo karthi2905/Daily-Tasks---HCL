@@ -1,0 +1,10 @@
+# TechNova Audit & Telemetry Specifications
+# Feature Branch: day5-rebase-demo
+
+[AUDIT_LOGGING]
+AUDIT_ENABLED = true
+LOG_DESTINATION = cloud-watch://technova/payments/audit
+RETENTION_PERIOD_DAYS = 90
+MASK_SENSITIVE_CREDENTIALS = true
+TELEMETRY_SAMPLE_RATE = 1.0
+ASYNC_BUFFER_CAPACITY = 2048
