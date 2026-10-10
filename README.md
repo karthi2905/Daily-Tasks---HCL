@@ -10,6 +10,14 @@ Repository to track daily learning, assessments, and tasks during the HCL traini
 | **Day 02** | Core Java Assessment: Monthly Usage Analyser | [Day-02/monthly-usage-analyser](./Day-02/monthly-usage-analyser) | Completed |
 | **Day 03** | Core Java Assessment: ATM Simulator | [Day-03/atm-simulator](./Day-03/atm-simulator) | Completed |
 | **Day 04** | Core Java Assessment: Bank Account OOP & Debugging | [Day-04/bank-account-debugging](./Day-04/bank-account-debugging) | Completed |
+| **Day 05** | Core Java Assessment: Payment Hierarchy, Polymorphism & Git Collaboration | [day-5](./day-5) | Completed |
+
+### Day 05 Overview: Payment Hierarchy, Polymorphism & Git Collaboration
+A robust **Core Java OOP and Git collaboration task** demonstrating abstraction, polymorphism, interfaces, and collaborative workflows:
+- **Abstraction & Inheritance**: Abstract base `Payment` class extended by `CardPayment`, `UPIPayment`, and `CashPayment`.
+- **Interface & Refunds**: `Refundable` interface implemented by `CardPayment` and `UPIPayment` with strict balance and non-negative refund validation; `CashPayment` remains non-refundable.
+- **Polymorphism**: Compile-time polymorphism through overloaded `pay()` methods in `PaymentService`; runtime polymorphism via dynamic dispatch on base-type `Payment` references.
+- **Git Collaboration Exercises**: Genuine merge conflict generation between feature branches `day5-conflict-student-a` and `day5-conflict-student-b` on `collaboration-demo.txt`, deliberate resolution, and branch rebase of `day5-rebase-demo` onto `main`.
 
 ### Day 04 Overview: Bank Account OOP & Debugging
 A comprehensive **Core Java OOP and debugging task** demonstrating encapsulation and IDE diagnostic techniques:
