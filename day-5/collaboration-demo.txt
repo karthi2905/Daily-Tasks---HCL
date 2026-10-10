@@ -3,7 +3,7 @@
 
 [GATEWAY_CONFIG]
 API_VERSION = 2.4.0
-GATEWAY_SECURITY_POLICY = Student-A (Card Specialist): Enforcing AES-256 GCM Tokenization & PCI-DSS 4.0 Standard
+GATEWAY_SECURITY_POLICY = Unified Hybrid Policy: PCI-DSS 4.0 AES-256 GCM Tokenization (Card/Student-A) & NPCI UPI 2.0 Signed Mandates (UPI/Student-B)
 TRANSACTION_TIMEOUT_MS = 5000
 RETRY_MAX_ATTEMPTS = 3
 SUPPORT_EMAIL = dev-support@technova.com
