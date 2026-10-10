@@ -28,26 +28,28 @@ Comprehensive assessment documentation for **Day 5** of the HCL Core Java Traini
 
 ```text
 daily-task-hcl/
-└── day-5/
-    ├── src/
-    │   └── com/
-    │       └── technova/
-    │           └── payment/
-    │               ├── model/
-    │               │   ├── Payment.java         # Abstract base class
-    │               │   ├── CardPayment.java     # Extends Payment, implements Refundable
-    │               │   ├── UPIPayment.java      # Extends Payment, implements Refundable
-    │               │   ├── CashPayment.java     # Extends Payment (non-refundable)
-    │               │   └── Refundable.java      # Interface for refund processing
-    │               ├── service/
-    │               │   └── PaymentService.java  # Overloaded pay() operations
-    │               └── app/
-    │                   └── PaymentApplication.java # Demonstration & test scenarios
-    ├── collaboration-demo.txt                   # Shared Git conflict exercise artifact
-    ├── rebase-demo-notes.txt                    # Git rebase exercise artifact
-    ├── run.bat                                  # Windows compilation and execution script
-    ├── README.md                                # Comprehensive module documentation
-    └── .gitignore                               # Ignores out/, *.class, and IDE metadata
+└── Day-05/
+    └── payment-hierarchy/
+        ├── src/
+        │   └── com/
+        │       └── technova/
+        │           └── payment/
+        │               ├── model/
+        │               │   ├── Payment.java         # Abstract base class
+        │               │   ├── CardPayment.java     # Extends Payment, implements Refundable
+        │               │   ├── UPIPayment.java      # Extends Payment, implements Refundable
+        │               │   ├── CashPayment.java     # Extends Payment (non-refundable)
+        │               │   └── Refundable.java      # Interface for refund processing
+        │               ├── service/
+        │               │   └── PaymentService.java  # Overloaded pay() operations
+        │               └── app/
+        │                   └── PaymentApplication.java # Demonstration & test scenarios
+        ├── collaboration-demo.txt                   # Shared Git conflict exercise artifact
+        ├── rebase-demo-notes.txt                    # Git rebase exercise artifact
+        ├── pom.xml                                  # Maven project configuration (Java 17/21)
+        ├── run.bat                                  # Multi-toolchain compilation & execution script
+        ├── README.md                                # Comprehensive module documentation
+        └── .gitignore                               # Ignores out/, target/, and *.class
 ```
 
 ---
@@ -151,14 +153,19 @@ if (payment instanceof Refundable refundable) {
 ---
 
 ## 6. Compilation & Execution
-
-### Direct Terminal Commands (from `daily-task-hcl/day-5/`):
+ 
+### Direct Terminal Commands (from `Daily-Tasks---HCL/Day-05/payment-hierarchy/`):
 ```bash
-# Compile all source packages into 'out' directory
+# Compile all source packages into 'target/classes' or 'out' directory
 javac -d out src/com/technova/payment/model/*.java src/com/technova/payment/service/*.java src/com/technova/payment/app/*.java
 
 # Execute main class
 java -cp out com.technova.payment.app.PaymentApplication
+```
+
+### Alternatively, using Maven:
+```bash
+mvn clean compile exec:java
 ```
 
 ### Alternatively, using `run.bat`:

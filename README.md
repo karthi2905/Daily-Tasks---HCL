@@ -10,7 +10,7 @@ Repository to track daily learning, assessments, and tasks during the HCL traini
 | **Day 02** | Core Java Assessment: Monthly Usage Analyser | [Day-02/monthly-usage-analyser](./Day-02/monthly-usage-analyser) | Completed |
 | **Day 03** | Core Java Assessment: ATM Simulator | [Day-03/atm-simulator](./Day-03/atm-simulator) | Completed |
 | **Day 04** | Core Java Assessment: Bank Account OOP & Debugging | [Day-04/bank-account-debugging](./Day-04/bank-account-debugging) | Completed |
-| **Day 05** | Core Java Assessment: Payment Hierarchy, Polymorphism & Git Collaboration | [day-5](./day-5) | Completed |
+| **Day 05** | Core Java Assessment: Payment Hierarchy, Polymorphism & Git Collaboration | [Day-05/payment-hierarchy](./Day-05/payment-hierarchy) | Completed |
 
 ### Day 05 Overview: Payment Hierarchy, Polymorphism & Git Collaboration
 A robust **Core Java OOP and Git collaboration task** demonstrating abstraction, polymorphism, interfaces, and collaborative workflows:
