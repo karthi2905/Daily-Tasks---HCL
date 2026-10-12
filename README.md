@@ -12,6 +12,16 @@ Repository to track daily learning, assessments, and tasks during the HCL traini
 | **Day 04** | Core Java Assessment: Bank Account OOP & Debugging | [Day-04/bank-account-debugging](./Day-04/bank-account-debugging) | Completed |
 | **Day 05** | Core Java Assessment: Payment Hierarchy, Polymorphism & Git Collaboration | [Day-05/payment-hierarchy](./Day-05/payment-hierarchy) | Completed |
 | **Day 06** | Core Java Assessment: Order Processor — Exception Handling & Copilot Review | [Day-06/order-processor](./Day-06/order-processor) | Completed |
+| **Day 07** | Core Java Assessment: Library Waitlist — Collections & Performance Analysis | [Day-07/library-waitlist](./Day-07/library-waitlist) | Completed |
+
+### Day 07 Overview: Library Waitlist, Collections & Performance Analysis
+A comprehensive **Core Java Collections Framework and algorithmic performance analysis task**:
+- **Catalogue via `ArrayList`**: Dynamic list providing $O(1)$ indexed access, title search, and book state transitions (`borrowBook` / `returnBook`).
+- **Duplicate Prevention via `LinkedHashSet`**: Rejection of duplicate student IDs in $O(1)$ time while strictly preserving original arrival order.
+- **Normal FIFO Waitlist via `ArrayDeque`**: Circular array-backed FIFO queue processing requests from head to tail with zero node allocation overhead.
+- **Faculty-First Priority via `PriorityQueue`**: Binary min-heap ordering requests by priority tier (`FACULTY` over `STUDENT`) with deterministic sequence-number tie-breaking via repeated `poll()` calls.
+- **Safe Overdue Loan Removal via `Iterator.remove()`**: Safe pruning of overdue unreturned loan records without triggering `ConcurrentModificationException`.
+- **Empirical Performance Experiment**: Benchmark comparing `ArrayList` and `LinkedList` across random indexed access ($O(1)$ vs $O(n)$), head prepends, middle insertions, and tail appends, documenting hardware cache locality and pointer traversal trade-offs.
 
 ### Day 06 Overview: Order Processor, Exception Handling & Copilot Review
 A comprehensive **Core Java Exception Handling and diagnostics task** demonstrating enterprise error handling strategies:
