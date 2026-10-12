@@ -11,6 +11,15 @@ Repository to track daily learning, assessments, and tasks during the HCL traini
 | **Day 03** | Core Java Assessment: ATM Simulator | [Day-03/atm-simulator](./Day-03/atm-simulator) | Completed |
 | **Day 04** | Core Java Assessment: Bank Account OOP & Debugging | [Day-04/bank-account-debugging](./Day-04/bank-account-debugging) | Completed |
 | **Day 05** | Core Java Assessment: Payment Hierarchy, Polymorphism & Git Collaboration | [Day-05/payment-hierarchy](./Day-05/payment-hierarchy) | Completed |
+| **Day 06** | Core Java Assessment: Order Processor — Exception Handling & Copilot Review | [Day-06/order-processor](./Day-06/order-processor) | Completed |
+
+### Day 06 Overview: Order Processor, Exception Handling & Copilot Review
+A comprehensive **Core Java Exception Handling and diagnostics task** demonstrating enterprise error handling strategies:
+- **Custom Exceptions**: Checked `InsufficientStockException` (retaining requested and available stock metrics) and unchecked `InvalidQuantityException` (eager validation of positive quantities).
+- **Exception Chaining**: Wrapping lower-level inventory shortages into a high-level `OrderProcessingException` while strictly preserving the causal chain via `getCause()`.
+- **Multi-Catch Handling**: Intercepting disjoint runtime exceptions (`IllegalArgumentException | IllegalStateException`) in a single catch block, adhering to Java language type restrictions.
+- **Guaranteed Auditing via Finally**: Utilizing `finally` blocks to unconditionally log transaction records (timestamp, product, quantity, outcome, reason) to `audit/order-audit.log`.
+- **Reproducible Traces & Copilot Review**: Generation of two genuine stack traces and IDE review rubric in `evidence/copilot-review.md`.
 
 ### Day 05 Overview: Payment Hierarchy, Polymorphism & Git Collaboration
 A robust **Core Java OOP and Git collaboration task** demonstrating abstraction, polymorphism, interfaces, and collaborative workflows:

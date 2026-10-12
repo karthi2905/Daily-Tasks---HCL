@@ -1,0 +1,16 @@
+# Compilation outputs
+out/
+target/
+*.class
+
+# Audit runtime log files (keep .gitkeep)
+audit/*.log
+!audit/.gitkeep
+
+# IDE configuration
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
