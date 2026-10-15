@@ -14,6 +14,16 @@ Repository to track daily learning, assessments, and tasks during the HCL traini
 | **Day 06** | Core Java Assessment: Order Processor — Exception Handling & Copilot Review | [Day-06/order-processor](./Day-06/order-processor) | Completed |
 | **Day 07** | Core Java Assessment: Library Waitlist — Collections & Performance Analysis | [Day-07/library-waitlist](./Day-07/library-waitlist) | Completed |
 | **Day 08** | Core Java Assessment: Employee Directory — Collections & Object Contracts | [Day-08/employee-directory](./Day-08/employee-directory) | Completed |
+| **Day 09** | Core Java Assessment: Generic Toolkit — Generics, File I/O & Resource Management | [Day-09/generic-toolkit](./Day-09/generic-toolkit) | Completed |
+
+### Day 09 Overview: Generic Toolkit, Generics, File I/O & Resource Management
+A comprehensive **Core Java Generics, File I/O, and Resource Lifecycle task**:
+- **Generic `Pair<K, V>`**: Generic two-tuple enforcing compile-time type safety and eliminating runtime cast hazards.
+- **Bounded `Box<T extends Number>`**: Upper-bounded generic container providing `doubleValue()`, `isPresent()`, and explicit null handling, while compile-time rejecting non-numeric types like `Box<String>`.
+- **Generic `max()` Algorithm**: Universal static comparison using `<T extends Comparable<T>>` with null-rejection policy.
+- **Wildcards & PECS Principle**: Producer Extends (`sumNumbers(List<? extends Number>)`), Consumer Super (`copyNumbers(List<? extends Number>, List<? super Number>)`), and read-only inspection via unbounded wildcard (`printItems(List<?>)`).
+- **UTF-8 CSV Processing with Try-with-Resources**: Dependency-free parsing of `Product` records using `BufferedReader` with custom `CsvParseException` retaining 1-based line numbers.
+- **Deterministic AutoCloseable Resource Lifecycle**: Demonstration of reverse declaration order (LIFO) cleanup across multi-resource statements, exception-path cleanup, and suppressed exception preservation via `Throwable.getSuppressed()`.
 
 ### Day 08 Overview: Employee Directory, Collections & Object Contracts
 A comprehensive **Core Java Collections Framework and Object Contracts task**:

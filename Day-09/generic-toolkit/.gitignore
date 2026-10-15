@@ -1,0 +1,12 @@
+# Compilation outputs
+out/
+target/
+*.class
+
+# IDE configuration
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
