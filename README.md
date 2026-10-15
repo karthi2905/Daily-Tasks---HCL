@@ -13,6 +13,16 @@ Repository to track daily learning, assessments, and tasks during the HCL traini
 | **Day 05** | Core Java Assessment: Payment Hierarchy, Polymorphism & Git Collaboration | [Day-05/payment-hierarchy](./Day-05/payment-hierarchy) | Completed |
 | **Day 06** | Core Java Assessment: Order Processor — Exception Handling & Copilot Review | [Day-06/order-processor](./Day-06/order-processor) | Completed |
 | **Day 07** | Core Java Assessment: Library Waitlist — Collections & Performance Analysis | [Day-07/library-waitlist](./Day-07/library-waitlist) | Completed |
+| **Day 08** | Core Java Assessment: Employee Directory — Collections & Object Contracts | [Day-08/employee-directory](./Day-08/employee-directory) | Completed |
+
+### Day 08 Overview: Employee Directory, Collections & Object Contracts
+A comprehensive **Core Java Collections Framework and Object Contracts task**:
+- **HashMap Employee Lookup**: Fast $O(1)$ average-case lookup keyed by employee ID, duplicate ID prevention, and safe missing-ID handling.
+- **Department Frequency Counting via `Map.merge()`**: Efficient counting of employees per department using atomic `Map.merge()` and case-insensitive department normalization.
+- **Sorted Department Report via `TreeMap`**: Self-balancing Red-Black binary search tree generating alphabetically ordered department summaries with headcount, roster, and exact `BigDecimal` salary averages.
+- **Natural Ordering via `Comparable`**: Ascending employee ID sorting via intrinsic `Employee.compareTo()`.
+- **Top-Five Salaries via Comparator Chaining**: Multi-tier sorting evaluating salary descending with deterministic secondary ID tie-breaking.
+- **Missing-`hashCode()` Bug Reproduction & Resolution**: Educational demonstration in `HashCodeBugDemo` highlighting how omitting `hashCode()` corrupts `HashSet` lookups and allows duplicate entries, followed by the correct contract implementation.
 
 ### Day 07 Overview: Library Waitlist, Collections & Performance Analysis
 A comprehensive **Core Java Collections Framework and algorithmic performance analysis task**:
